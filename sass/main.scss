@@ -1,0 +1,198 @@
+// COLORS
+$color_primary: #080E32;
+$color_secondary: #FE4C1C;
+$color_text_light: #FAFAFA;
+
+.top_head_menu{
+    background-color: $color_primary;
+    height: 45px;
+    display: block;
+
+    .contact_icons{
+        color: $color_text_light;
+        margin-top: 10px;
+
+        i{
+            color: $color_secondary;
+        }
+    }
+
+    .bton{
+        color: $color_text_light;
+        background-color: $color_secondary;
+        display: inline-block;
+        padding: 9px 40px 11px 40px;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 25.5px;
+    }
+}
+
+.main_menu{
+
+    .logo{
+        margin-top: 20px;
+    }
+    .navigation{
+        list-style: none;
+        padding: 0;
+
+        li{
+            float: left;
+            margin-left: 20px;
+            &:first-child{
+                margin-left: 0;
+            }
+
+            a{
+                font-size: 17.5px;
+                line-height: 26.25px;
+                font-weight: 700;
+                text-decoration: none;
+                color: $color_primary;
+                padding: 30px 0 20px 0;
+                display: block;
+            }
+        }
+    }
+
+    .menu_icon_box{
+        background-color: $color_secondary;
+        padding: 10px 20px;
+        width: 150;
+        margin-top: 20px;
+        text-align: center;
+        border-radius: 100px;
+        a{
+            text-decoration: none;
+            padding: 0 10px;
+            font-size: 20px;
+            color: $color_text_light;
+            border-right: 1px solid rgba(250, 250, 250, 0.3);
+
+            &:last-child{
+                border-right: 1;
+            }
+        }
+    }
+
+}
+
+.banner_section{
+
+    .banner_text_box{
+        background-color: $color_primary;
+        padding: 0 50px;
+        padding-top: 200px;
+        height: 100vh;
+
+        h4{
+            color: $color_secondary;
+            font: 15.5px;
+            line-height: 23.25px;
+            font-weight: 700;
+        }
+        h1{
+            font-size: 60px;
+            line-height: 72px;
+            font-weight: 800;
+            color: $color_text_light;
+        }
+        p{
+            font-size: 16px;
+            line-height: 28.8px;
+            font-weight: 400;
+            color: $color_text_light;
+            margin-top: 40px;
+        }
+
+        .banner_form{
+            background-color: $color_text_light;
+            padding: 10px;
+            border-radius: 4px;
+
+            input{
+                border: none;
+                height: 50px;
+                background-color: $color_text_light;
+                &:first-child{
+                    border-right: 2px solid #d9d9d9;
+                }
+                &:focus{
+                    outline: none;
+                }
+            }
+
+            .bt_n{
+                border: none;
+                background-color: $color_secondary;
+                padding: 10px 30px;
+                font-size: 17px;
+                line-height: 25.5px;
+                font-weight: 700;
+                color: $color_text_light;
+                border-radius: 4px;
+            }
+        }
+    }
+
+    .banner_img{
+        background-image: url("../imgs/banner-img8.jpg");
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+
+.few_services_card{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    padding: 50px 30px;
+    box-shadow: 0px 15px 35px #d9d9d9;
+    border-radius: 5px;
+    .icon i{
+        padding: 20px;
+        font-size: 40px;
+        color: $color_secondary;
+        background: rgba($color_secondary, 0.3);
+        border-radius: 50%;
+    }
+
+    h4{
+        margin-top: 20px;
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: 800;
+    }
+    p{
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 28.8px;
+        font-weight: 400;
+    }
+
+    .icon_btn{
+        margin-top: 20px;
+
+        a{
+            text-decoration: none;
+            color: $color_secondary;
+            font-size: 16px;
+            font-weight: bold;
+            i{
+                padding: 10px 12px;
+                font-size: 20px;
+                background-color: $color_secondary;
+                color: $color_text_light;
+                font-weight: bold;
+                border-radius: 5px;
+            }  
+        }
+
+        
+    }
+}

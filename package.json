@@ -1,0 +1,17 @@
+{
+  "name": "agency",
+  "version": "1.0.0",
+  "description": "Seo Agency",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Anis Ayser",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.1"
+  }
+}
